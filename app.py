@@ -1,7 +1,13 @@
 import streamlit as st
 from agent_graph import build_twin_graph
 
-st.set_page_config(page_title="Agentic AI Twin", page_icon="🧠")
+# The "App Identity" Setup
+st.set_page_config(
+    page_title="Harini's AI Twin", 
+    page_icon="🧠", 
+    layout="centered"
+)
+
 st.title("🧠 My Agentic AI Twin")
 
 # 1. Get the key
